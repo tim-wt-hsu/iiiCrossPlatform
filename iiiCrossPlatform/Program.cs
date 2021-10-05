@@ -21,10 +21,7 @@ namespace iiiCrossPlatform
                 if (path.Contains("break")) break;
                 else
                 {
-                    Console.WriteLine();
-                    Console.WriteLine(" Start Processing Setting file ......");
-                    Console.WriteLine(File.Exists(path) ? "  => Setting file exists." :
-                                                          "  => Setting file does not exist.");
+
 
                     if (File.Exists(path))
                     {

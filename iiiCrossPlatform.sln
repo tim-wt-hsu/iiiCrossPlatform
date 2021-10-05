@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iiiCrossPlatform", "iiiCrossPlatform\iiiCrossPlatform.csproj", "{FE16799E-026A-4E84-8107-65170D0EE928}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE16799E-026A-4E84-8107-65170D0EE928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE16799E-026A-4E84-8107-65170D0EE928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE16799E-026A-4E84-8107-65170D0EE928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE16799E-026A-4E84-8107-65170D0EE928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D460540-F3DD-4AFD-AA30-6EB032F5219A}
+	EndGlobalSection
+EndGlobal

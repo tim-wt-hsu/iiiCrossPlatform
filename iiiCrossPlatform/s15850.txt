@@ -1,0 +1,8 @@
+﻿SimulateRound = 1000
+Clk = clk_i
+VerilogFileDir = D:\tim\桌面\資策會\電路轉檔進度回報_20210913\電路轉檔_20210913\trusthub\ungroup_PIC16F84_T100.v
+CellLibraryFileDir = D:\tim\桌面\資策會\share\merge.lib
+BenchmarkFileDir = D:\tim\桌面\資策會\學長\final
+ThresholdZero = 0.01
+ThresholdOne = 0.01
+TrainingSetRatio = 80%

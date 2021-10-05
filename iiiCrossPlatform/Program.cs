@@ -14,6 +14,7 @@ namespace iiiCrossPlatform
                 Console.WriteLine();
 
                 Console.Write(" Setting File Dir > ");
+                Console.WriteLine("test2test2github");
 
                 string path = Console.ReadLine().Trim();
 

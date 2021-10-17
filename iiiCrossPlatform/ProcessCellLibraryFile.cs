@@ -51,6 +51,7 @@ namespace iiiCrossPlatform
                 cellOne.cellLeakagePower = "1.443476e+05";
                 cellOne.name = "LATCHX1_RVT";
                 cellOne.cellFootprint = "LATCH";
+                //ff
                 FF ff = new FF();
                 ff.clear = "";
                 ff.clock = Clock.LowToHigh;
@@ -60,9 +61,35 @@ namespace iiiCrossPlatform
 
                 ff.postfixOfNextState = postfunction;
                 cellOne.ff = ff;
+                //pin
+                CellPin pinOne = new CellPin();
+                pinOne.classification = CellPinClass.Input;
+                pinOne.function = "";
+                pinOne.name = "D";
 
+                CellPin pinTwo = new CellPin();
+                pinTwo.classification = CellPinClass.Input;
+                pinTwo.function = "";
+                pinTwo.name = "CLK";
+
+                CellPin pinThree = new CellPin();
+                pinThree.classification = CellPinClass.Output;
+                pinThree.function = "IQ";
+                pinThree.name = "Q";
+                List<string> postfixOfFunction1 = new List<string>();
+                postfixOfFunction1.Add("IQ");
+                pinThree.postfixOfFunction = postfixOfFunction1;
+
+                CellPin pinFour = new CellPin();
+                pinFour.classification = CellPinClass.Output;
+                pinFour.function = "IQN";
+                pinFour.name = "QN";
+                List<string> postfixOfFunction2 = new List<string>();
+                postfixOfFunction2.Add("IQN");
+                pinFour.postfixOfFunction = postfixOfFunction2;
+
+                cellOne.pinList.Add(pinOne); cellOne.pinList.Add(pinTwo); cellOne.pinList.Add(pinThree); cellOne.pinList.Add(pinFour);
                 Tool.CellFile.CellLib.Add(cellOne);
-                Console.WriteLine("test");
             }
             //cellOne.pinList.add
 

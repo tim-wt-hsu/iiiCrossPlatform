@@ -194,6 +194,8 @@ namespace iiiCrossPlatform
             if (outputPlace == -1 || outputPlace>50) outputPlace = 100000;
             // first keyWord "wire" place
             int wirePlace = s.IndexOf("wire");
+            if (wirePlace == -1)
+                wirePlace = s.IndexOf("tri");
             if (wirePlace == -1) wirePlace = 100000;
             // first keyWord "assign" place
             int assignPlace = s.IndexOf("assign");
@@ -385,6 +387,8 @@ namespace iiiCrossPlatform
 
             Console.WriteLine("  => Process Wire Status.");
             stringBeginIndex = s.IndexOf("wire");
+            if (stringBeginIndex == -1)
+                stringBeginIndex = s.IndexOf("tri");
 
             int stringEndIndex = s.IndexOf(";");
 
